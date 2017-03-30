@@ -1,12 +1,3 @@
-@mixin border-width( $arg0, $arg1, $arg2, $arg3) {
-  border-top-width: $arg0;
-  border-right-width: $arg1;
-  border-bottom-width: $arg2;
-  border-left-width: $arg3;
-}
-
-
-
 @mixin rotated-text($num-letters: num, $angle-span: deg, $angle-offset: offsetdeg) {
 	$angle-per-char: $angle-span / $num-letters;
 
